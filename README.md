@@ -32,3 +32,6 @@ I learned how to manage side effects using `useEffect` and how to create custom 
 
 ## Challenges Faced
 The main challenge was handling the loading states while fetching data to prevent the app from crashing before data arrived. I solved this by implementing conditional rendering for loading and error messages.
+
+## Live Demo 
+[View Live Demo](https://iyf-s10-week-09-maune-tut-live.vercel.app/)
