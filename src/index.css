@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #f8fafc; /* This is a light grey */
+}
+
+/* Let's add manual spacing just in case Tailwind is still sleeping */
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background: white;
+  border-bottom: 1px solid #ddd;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
